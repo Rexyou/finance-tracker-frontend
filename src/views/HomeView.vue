@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/HelloWorld.vue'
+import Hero from '../components/Hero.vue'
+import HomeSection from '../components/HomeSection.vue'
+import Footer from '../components/FooterSection.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <Hero />
+    <Home-Section />
+    <Footer />
 </template>
